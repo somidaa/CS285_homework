@@ -1,19 +1,23 @@
+# Python
 __pycache__/
 *.pyc
-.git/
-.venv/
 *.egg-info/
-wandb/
-.vscode/
+
+# Virtual envs
+.venv/
+venv/
+
+# IDE
 .idea/
+.vscode/
 .DS_Store
 
-# Data artifacts
-/data/
-checkpoints/
-videos/
-*.zip
+# Data & artifacts
+data/
 exp/
+wandb/
+*.zip
+*.zarr/
 
-# Modal logs/artifacts
-modal_volume/
+# OS
+Thumbs.db
